@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카드 메모리 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. 제목 영역 -->
+    <h1 class="title">카드 메모리 게임</h1>
+
+    <!-- 2. 점수판 (이동 횟수, 타이머, 맞춘 쌍) -->
+    <div class="score">
+        <div>이동 횟수 : <span id="movesCount">0</span></div>
+        <div>타임 : <span id="timerDisplay">00:00</span></div>
+        <div>맞춘 쌍 : <span id="pairsCount">0 / 8</span></div>
+    </div>
+
+    <!-- 3. 카드가 들어갈 게임 보드 -->
+    <div id="gameBoard"></div>
+
+    <!-- 4. 시작 / 리셋 버튼 -->
+    <button id="startGameBtn">게임 시작 / 리셋</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
